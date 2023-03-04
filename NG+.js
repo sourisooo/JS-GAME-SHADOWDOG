@@ -1,11 +1,13 @@
-let playerState = 'bite';
-// const dropdown = document.getElementById('animations');
-// dropdown.addEventListener('change', function(e)
+let playerState = 'run';
 
-//     {
-//         playerState=e.target.value;
 
-//     })
+const dropdown = document.getElementById('animations');
+dropdown.addEventListener('change', function(e)
+
+    {
+        playerState=e.target.value;
+
+    })
 
 
 const canvas = document.getElementById('canvas1');
